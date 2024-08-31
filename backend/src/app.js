@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const connectDB = require('./config/database');
-const apiRoutes = require('./src/routes/api');
+const apiRoutes = require('./routes/api');
 const { startPriceUpdateScheduler } = require('./controllers/priceController');
 
 const app = express();
