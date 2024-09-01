@@ -3,7 +3,7 @@ import axios from 'axios';
 import styles from './FetchTransactions.module.css';
 
 
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://koinx-assessment.onrender.com';
 
 function FetchTransactions() {
   const [address, setAddress] = useState('');
