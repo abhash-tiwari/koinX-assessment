@@ -6,6 +6,7 @@ import styles from './App.module.css';
 
 function App() {
   return (
+    <>
     <Router>
       <div className={styles.app}>
         <nav className={styles.nav}>
@@ -25,6 +26,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    </>
   );
 }
 

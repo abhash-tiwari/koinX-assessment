@@ -3,7 +3,7 @@ import axios from 'axios';
 import styles from './FetchTransactions.module.css';
 
 
-const API_BASE_URL = 'https://koinx-assessment.onrender.com';
+const API_BASE_URL = 'http://localhost:3001';
 
 function FetchTransactions() {
   const [address, setAddress] = useState('');
@@ -35,6 +35,7 @@ function FetchTransactions() {
         />
         <button type="submit" className={styles.button}>Fetch Transactions</button>
       </form>
+      <>
       {error && <p className={styles.error}>{error}</p>}
       <ul className={styles.transactionList}>
         {transactions.map((tx, index) => (
@@ -45,6 +46,7 @@ function FetchTransactions() {
           </li>
         ))}
       </ul>
+      </>
     </div>
   );
 }
