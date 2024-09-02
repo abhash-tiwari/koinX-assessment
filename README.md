@@ -1,4 +1,4 @@
-Crypto Transactions Application
+Crypto Transactions Application : 
 This project is a full-stack application developed as a take-home assignment for a Backend Intern position. It includes a Node.js-based backend and a React frontend, allowing users to fetch their crypto transactions, retrieve Ethereum prices periodically, and calculate expenses based on gas usage.
 
 Features
